@@ -36,6 +36,8 @@ public class UIForms {
         buttons.add(UIComponents.createButton("Lifeboat Network", "https://lbsg.net/wp-content/uploads/2017/06/lifeboat-square.png", "url"));
         buttons.add(UIComponents.createButton("Mineville City", "https://pbs.twimg.com/profile_images/1095835578451537920/0-x9qcw8.png", "url"));
         buttons.add(UIComponents.createButton("Galaxite", "https://i.imgur.com/VxXO8Of.png", "url"));
+        buttons.add(UIComponents.createButton("Tailvile", "https://i.imgur.com/O8wTFaT.png", "url"));
+        buttons.add(UIComponents.createButton("Other", "https://i.imgur.com/3BmFZRE.png", "url"));
         out.add("buttons", buttons);
 
         mf.setFormData(out.toString());
